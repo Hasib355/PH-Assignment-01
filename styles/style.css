@@ -21,7 +21,7 @@ nav{
     font-family: Azeret Mono;
     font-size: 28px;
     font-weight: 800;
-    padding-right: 800px;
+    /* padding-right: 800px; */
 
 }
 
@@ -53,7 +53,7 @@ nav ul li{
 .banner-content{
     width: 1320px;
     height: 600px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -103,7 +103,7 @@ nav ul li{
 .web-dev{
     width: 946px;
     height: 1235px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin: 0 auto;
     margin-top: 154px;
     flex-direction: column;
@@ -225,3 +225,45 @@ text-align: center;
     padding-right:165px;
     text-align: left;
 }
+
+
+/* inspiration */
+.inpiration-section{
+    width: 1140px;
+    height: 775px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    margin-top: 88px;
+}
+
+.inpiration-section h2{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.inpiration-section p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.video{
+    width: 1140px;
+    height: 614px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.video2{
+    border-radius: 16px;
+}
+
