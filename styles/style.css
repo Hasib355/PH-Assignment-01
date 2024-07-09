@@ -13,7 +13,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin: 38px 160px;
+    /* margin: 38px ; */
 
 }
 .nav-title{
@@ -34,11 +34,10 @@ nav ul li{
     font-family: Azeret Mono;
     font-size: 20px;
     font-weight: 600;
-    position: absolute;
     width: 228px;
     height: 58px;
-    left: 1046px;
-    top: 38px;
+    /* left: 1046px; */
+    /* top: 38px; */
 }
     /* NAV Style End */
 
@@ -100,3 +99,129 @@ nav ul li{
     font-weight: 600;
 }
     /* Header Style End */
+
+.web-dev{
+    width: 946px;
+    height: 1235px;
+    border: 2px solid red;
+    margin: 0 auto;
+    margin-top: 154px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(13, 19, 33, 0.02)
+}
+
+.web-dev h1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.web-dev p{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+text-align: center;
+}
+
+.fist-dev{
+    width: 946px;
+    height: 336px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    margin-top: 100px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+
+}
+
+.fist-dev h2{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.fist-dev p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    padding-right:165px;
+    text-align: left;
+}
+
+.btn2{
+    width: 150px;
+    height: 48px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+}
+
+.second-dev{
+    width: 946px;
+    height: 336px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding:20px; */
+
+}
+
+.second-dev h2{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+}
+.second-dev p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    /* padding-right:165px; */
+    text-align: left;
+}
+
+.third-dev{
+    width: 946px;
+    height: 336px;
+    /* border: 2px solid red; */
+    margin: 0 auto;  
+    margin-top: 20px;
+    display: flex;
+    padding:20px;
+}
+
+.third-dev h2{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+}
+.third-dev p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    padding-right:165px;
+    text-align: left;
+}
