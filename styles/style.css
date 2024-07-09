@@ -270,7 +270,7 @@ text-align: center;
 .current-target-section{
     width: 1140px;
     height: 460px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin: 0 auto;
     margin-top: 50px;
 }
@@ -315,16 +315,16 @@ text-align: center;
 .html p{
     text-align: left;
     color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 16px;
-font-weight: 400;
-}
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    }
 
 .css{
     width: 364px;
     height: 299px;
     border-radius: 16px;
-    background: rgba(0, 76, 232, 0.05);
+    /* background: rgba(0, 76, 232, 0.05); */
     display: flex;
    flex-direction: column;
    justify-content: center;
@@ -366,7 +366,7 @@ font-weight: 400;
 .next-target{
     width: 1140px;
     height: 866px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin: 0 auto;
     margin-top: 50px;
 }
@@ -447,7 +447,6 @@ font-weight: 400;
     justify-content: start;
     align-items: center;
 }
-
 .mongibd{
     width: 1140px;
     height: 219px;
@@ -458,4 +457,66 @@ font-weight: 400;
     flex-direction: row;
     justify-content: start;
     align-items: center;
+}
+
+/* i need support */
+
+.support-container{
+    width: 1140px;
+    height: 313px;
+    border: 2px solid red;
+    margin: 0 auto;
+    background-image: url(/assets/handshake.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+.support-container h1{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.support-container p{
+
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+/*  */
+
+.input-segment{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items:start;
+}
+
+.input{
+    width: 548px;
+    height: 57px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+
+    background: rgb(255, 255, 255);
+}
+
+.input-button{
+    width: 120px;
+height: 57px;
+border-radius: 8px;
+background: rgb(255, 255, 255);
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+margin-left: 20px;
 }
