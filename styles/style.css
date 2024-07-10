@@ -13,7 +13,6 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    /* margin: 38px ; */
 
 }
 .nav-title{
@@ -21,7 +20,6 @@ nav{
     font-family: Azeret Mono;
     font-size: 28px;
     font-weight: 800;
-    /* padding-right: 800px; */
 
 }
 
@@ -43,14 +41,12 @@ nav ul li{
 .header-container{
    width: 1440px;
     height: 652px;
-    /* border: 2px auto red; */
     margin: 0 auto;
 }
 
 .banner-content{
     width: 1320px;
     height: 700px;
-    /* border: 2px solid red; */
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -60,10 +56,8 @@ nav ul li{
 }
 
 .banner-img{
-    position: absolute;
     width: 240.28px;
     height: 240px;
-    padding-bottom: 400px;
 }
 
 .banner-content H1{
@@ -72,7 +66,7 @@ nav ul li{
     font-size: 40px;
     font-weight: 800;
     text-align: center;
-    margin-top: 250px;
+    margin-top: 50px;
     
 }
 
@@ -82,7 +76,6 @@ nav ul li{
     font-size: 16px;
     font-weight: 400;
     text-align: center;
-    /* margin-top: 0px; */
     margin-left: 25px;
 
 }
@@ -97,14 +90,12 @@ nav ul li{
     font-size: 20px;
     font-weight: 600;
     margin-top: 20px;
-    /* text-decoration: n; */
 }
     /* Header Style End */
 
 .web-dev{
     width: 1100px;
     height: 1350px;
-    /* border: 2px solid red; */
     margin: 0 auto;
     margin-top: 100px;
     flex-direction: column;
@@ -139,7 +130,6 @@ nav ul li{
 .fist-dev{
     width: 946px;
     height: 336px;
-    /* border: 2px solid red; */
     margin: 0 auto;
     margin-top: 20px; 
     display: flex;
@@ -184,13 +174,11 @@ nav ul li{
 .second-dev{
     width: 985px;
     height: 336px;
-    /* border: 2px solid red; */
     margin: 0 auto;
     margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* padding:20px; */
     background-color: white;
     border-radius: 10px;
 
@@ -207,7 +195,6 @@ nav ul li{
     font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
-    /* padding-right:165px; */
     text-align: left;
     text-align: justify;
 }
@@ -215,7 +202,6 @@ nav ul li{
 .third-dev{
     width: 946px;
     height: 336px;
-    /* border: 2px solid red; */
     margin: 0 auto;  
     margin-top: 20px;
     display: flex;
@@ -245,7 +231,6 @@ nav ul li{
 .inpiration-section{
     width: 1140px;
     height: 775px;
-    /* border: 2px solid red; */
     margin: 0 auto;
     margin-top: 50px;
 }
@@ -286,7 +271,6 @@ nav ul li{
 .current-target-section{
     width: 1200px;
     height: 560px;
-    /* border: 2px solid red; */
     margin: 0 auto;
     margin-top: 100px;
 }
@@ -322,12 +306,13 @@ nav ul li{
     height: 299px;
     border-radius: 16px;
     background: rgba(255, 76, 30, 0.05);
-    /* border: 2px solid red; */
     margin: 0 auto;
     display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: flex-start;
+   padding-left: 20px;
+   padding-top: 20px;
 }
 .html p{
     text-align: left;
@@ -339,13 +324,15 @@ nav ul li{
 
 .css{
     width: 364px;
-    height: 299px;
+    height: 320px;
     border-radius: 16px;
+    margin: 0 auto;
     background: rgba(0, 76, 232, 0.05);
     display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: flex-start;
+   
 }
 
 .css p{
@@ -360,12 +347,12 @@ nav ul li{
     width: 364px;
     height: 299px;
     border-radius: 16px;
+    margin: 0 auto;
     background: rgba(255, 223, 0, 0.05);
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: flex-start;
-    margin-left: 30px;
+    margin-left: 10px;
     text-align: left;
     
 
@@ -393,7 +380,6 @@ nav ul li{
 .next-target{
     width: 1140px;
     height: 866px;
-    /* border: 2px solid red; */
     margin: 0 auto;
     margin-top: 50px;
 }
@@ -418,7 +404,6 @@ nav ul li{
 .reactjs{
     width: 1140px;
     height: 219px;
-    /* box-sizing: border-box; */
     border: 1px solid rgba(13, 19, 33, 0.15);
     border-radius: 16px;
     background: rgb(255, 255, 255);
@@ -570,7 +555,6 @@ font-weight: 400;
 .footer-container{
     width: 1440px;
     height: 100px;
-    /* border: 2px solid red; */
     margin: 0 auto;
     margin-top: 50px;
     background-color:rgba(13, 19, 33, 0.03);
@@ -588,5 +572,5 @@ font-weight: 400;
     margin-left: 5px;
 }
 
-.footer-link{
-}
+
+/* END */
